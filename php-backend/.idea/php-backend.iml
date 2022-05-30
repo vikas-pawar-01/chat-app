@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/mailgun/mailgun-php" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/symfony/polyfill-php73" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/symfony/translation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/symfony/options-resolver" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/phpoption/phpoption" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/nyholm/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/symfony/translation" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/graham-campbell/result-type" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/firebase/php-jwt" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/clue/stream-filter" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/kriswallsmith/buzz" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/psr/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/vlucas/phpdotenv" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/php-http/promise" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/php-http/message-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/php-http/multipart-stream-builder" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/php-http/httplug" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/php-http/message" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/php-http/curl-client" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/php-http/discovery" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/php-http/client-common" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/okta/jwt-verifier" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/nesbot/carbon" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/bretterer/iso_duration_converter" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

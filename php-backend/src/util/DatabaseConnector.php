@@ -1,0 +1,62 @@
+<<<<<<< HEAD
+<?php
+
+namespace Src\System;
+
+class DatabaseConnector {
+
+	private $objDatabaseConnection = NULL;
+
+	public function __construct() {
+		$host = $_ENV['DB_HOST'];
+		$port = $_ENV['DB_PORT'];
+		$db   = $_ENV['DB_DATABASE'];
+		$user = $_ENV['DB_USERNAME'];
+		$pass = $_ENV['DB_PASSWORD'];
+
+		try {
+			$this->objDatabaseConnection = new \PDO(
+				"mysql:host=$host;port=$port;charset=utf8mb4;dbname=$db",
+				$user,
+				$pass
+			);
+		} catch( \PDOException $e ) {
+			exit( $e->getMessage() );
+		}
+	}
+
+	public function getConnection() {
+		return $this->objDatabaseConnection;
+	}
+=======
+<?php
+
+namespace Src\System;
+
+class DatabaseConnector {
+
+	private $objDatabaseConnection = NULL;
+
+	public function __construct() {
+		$host = $_ENV['DB_HOST'];
+		$port = $_ENV['DB_PORT'];
+		$db   = $_ENV['DB_DATABASE'];
+		$user = $_ENV['DB_USERNAME'];
+		$pass = $_ENV['DB_PASSWORD'];
+
+		try {
+			$this->objDatabaseConnection = new \PDO(
+				"mysql:host=$host;port=$port;charset=utf8mb4;dbname=$db",
+				$user,
+				$pass
+			);
+		} catch( \PDOException $e ) {
+			exit( $e->getMessage() );
+		}
+	}
+
+	public function getConnection() {
+		return $this->objDatabaseConnection;
+	}
+>>>>>>> e5cc454edf8ece10371a8aa2c2142769c5584654
+}
