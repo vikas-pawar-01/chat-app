@@ -1,12 +1,5 @@
-<<<<<<< HEAD
 {
 	"env": {
 		"REACT_APP_FRONTEND_URL": "http://localhost:3000"
 	}
-=======
-{
-	"env": {
-		"REACT_APP_FRONTEND_URL": "http://localhost:3000"
-	}
->>>>>>> e5cc454edf8ece10371a8aa2c2142769c5584654
 }
